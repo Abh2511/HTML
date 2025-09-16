@@ -1,0 +1,79 @@
+ <!-- <!DOCTYPE html>
+ <html>
+    <head>
+        <title>Paragraph</title>
+    </head>
+    <style>
+        li{
+            font-size: 20px;
+        }
+        ol{
+            font-weight: bold;
+            font-size: 30px;
+        }
+    </style>
+    <body>
+       <h2>Web Terminology</h2>
+       <ol type="I">
+          <li>
+              HTML
+              <ol type="1">
+                 <li>Normal Elements
+                     <ol type="a"> 
+                        <li>Bold</li>
+                        <li>Italic</li>
+                     </ol>
+                 </li>
+                 <li>Void Elements
+                     <ol type="a">
+                        <li>Line Break</li>
+                        <li>Image</li>
+                     </ol>
+                 </li>
+              </ol>
+          </li>
+          <li>
+              JavaScript
+              <ol type="1">
+                <li>Variables</li>
+                <li>Data Types</li>
+              </ol>
+          </li>
+       </ol>
+    </body>
+ </html> -->
+
+
+ <!-- FAQ: How can we arrange list items side by side? -->
+
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <title>Paragraph</title>
+        <style>
+           ol {
+               display: flex;
+               list-style: none;
+           }
+           li {
+               margin-left: 40px;
+               border:2px solid darkcyan;
+               background-color: rgb(38, 3, 23);
+               color:rgba(255, 255, 255, 0.708);
+               padding:5px;
+               text-align: center;
+               border-radius: 10px;
+               width: 200px;
+           }
+        </style>
+    </head>
+    <body>
+       <ol>
+           <li>Home</li>
+           <li>About</li>
+           <li>Contact</li>
+           <li>Signin</li>
+           <li>Help</li>
+       </ol>
+    </body>
+</html>
